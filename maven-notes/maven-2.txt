@@ -1,0 +1,33 @@
+installation of maven on EC2-INSTANCE
+-----------------------------------------------
+yum install java-11*
+
+sudo yum install maven  / to install maven
+
+mvn -v   / to check version of maven
+
+
+project on maven
+-----------------
+
+mvn archetype:generate  / it will list out all the templates of project.
+
+it will ask grp-id, artifact-id, version, package
+
+
+maven build life cycle
+-------------------------
+
+1. mvn validate
+2. mvn compile
+3. mvn test
+4. mvn package
+5. mvn verify
+6. mvn install
+7. mvn clean
+8. mvn site
+
+
+
+
+

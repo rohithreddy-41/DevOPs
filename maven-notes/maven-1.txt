@@ -1,0 +1,91 @@
+MAVEN
+----------
+
+what is build
+------------------
+
+build means to convert source code into executable file.
+
+here build refers to compile, link and packaging the code into a useful and executable file.
+
+
+what is maven
+--------------
+maven is a project management tool
+
+prerequisite of maven
+-------------------------
+1. java
+
+installation
+---------------
+install maven and configure environment variable.
+
+on Linux
+-----------
+sudo yum install java-11* -y
+sudo yum install maven -y // to install maven
+
+to check version of maven
+
+syn:  mvn -v 
+
+
+MAVEN BUILD LIFE CYCLE
+-----------------------------
+
+1. validate: in this step maven checks whether the project is correct or not and all info. are available or not.
+
+goal: validate
+
+2. compile: in this step maven compile the source code project.
+
+goal: compile
+
+3. test : here maven test all the compiled code using suitable unit testing framework.
+
+goal: test
+
+4. package: in this  step maven take compiled code and packages it in its distributable format such as jar, war etc.
+
+goal : package
+
+5. integration testing
+
+6. verify : run any checks to verify package is valid and meets quality criteria.
+
+7. install: install the package into local repo. of maven for future use.
+
+goal : install
+
+8. deploy 
+goal : deploy
+
+9. clean: clean up artifacts by prior build.
+10. site : generate site documentation for the project.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
